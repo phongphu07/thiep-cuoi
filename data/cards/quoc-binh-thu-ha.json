@@ -1,0 +1,23 @@
+{
+  "slug": "quoc-binh-thu-ha",
+  "theme": "rustic",
+  "groom": "Quốc Bình",
+  "bride": "Thu Hà",
+  "date": "15.12.2026",
+  "fullDate": "2026-12-15T11:00:00",
+  "greeting": "Giữa bảy tỉ người, hai con người tự do lại tìm thấy nhau trong một khu vườn mùa thu tĩnh lặng. Xin được mời bạn cùng nâng ly chúc mừng cho tình yêu mộc mạc mà dài lâu này.",
+  "images": [
+    { "src": "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&q=80", "aspect": "aspect-square", "delay": 0 },
+    { "src": "https://images.unsplash.com/photo-1544078755-9a8449c2eb06?auto=format&fit=crop&q=80", "aspect": "aspect-square", "delay": 0.1 },
+    { "src": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&q=80", "aspect": "aspect-square", "delay": 0.2 },
+    { "src": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&q=80", "aspect": "aspect-square", "delay": 0.3 }
+  ],
+  "banks": [
+    { 
+      "owner": "TRẦN QUỐC BÌNH", 
+      "number": "55556666", 
+      "bank": "Techcombank", 
+      "qr": "https://api.vietqr.io/image/970407-55556666-j41Z0PZ.jpg?accountName=TRAN%20QUOC%20BINH&amount=1000000" 
+    }
+  ]
+}

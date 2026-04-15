@@ -3,17 +3,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const images = [
-    // Thay đổi xen kẽ aspect ratio để tạo Masonry đẹp
-    { src: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80", aspect: "aspect-[3/4]", delay: 0 },
-    { src: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&q=80", aspect: "aspect-square", delay: 0.1 },
-    { src: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&q=80", aspect: "aspect-[4/5]", delay: 0.2 },
-    { src: "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&q=80", aspect: "aspect-video", delay: 0.3 },
-    { src: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80", aspect: "aspect-square", delay: 0.4 },
-    { src: "https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&q=80", aspect: "aspect-[3/4]", delay: 0.5 },
-];
+interface ImageItem {
+    src: string;
+    aspect: string;
+    delay: number;
+}
 
-export default function Gallery() {
+export default function Gallery({ images }: { images: ImageItem[] }) {
     return (
         <section className="py-24 bg-[#f9f4f0] px-4">
             <motion.div

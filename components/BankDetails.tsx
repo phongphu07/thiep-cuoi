@@ -3,12 +3,14 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
-export default function BankDetails() {
-    // Mock user banks
-    const banks = [
-        { owner: "Nguyễn Thanh Tùng", number: "123456789", bank: "Vietcombank", qr: "https://api.vietqr.io/image/970436-123456789-j41Z0PZ.jpg?accountName=NGUYEN%20THANH%20TUNG&amount=500000" },
-        { owner: "Trần Hồng Lan", number: "987654321", bank: "MB Bank", qr: "https://api.vietqr.io/image/970422-987654321-c4n3B8G.jpg?accountName=TRAN%20HONG%20LAN&amount=500000" }
-    ];
+interface BankItem {
+    owner: string;
+    number: string;
+    bank: string;
+    qr: string;
+}
+
+export default function BankDetails({ banks }: { banks: BankItem[] }) {
 
     const [copied, setCopied] = useState<number | null>(null);
 

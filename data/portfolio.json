@@ -1,0 +1,272 @@
+[
+    {
+        "id": "mock-01",
+        "name": "Luxury 01",
+        "image": "https://images.unsplash.com/photo-1544078755-9a8449c2eb06?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Sang trọng"
+        ],
+        "theme": "luxury"
+    },
+    {
+        "id": "mock-02",
+        "name": "Song Hỷ Đỏ 02",
+        "image": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Truyền thống"
+        ],
+        "theme": "traditional-red"
+    },
+    {
+        "id": "mock-03",
+        "name": "Navy Blue 03",
+        "image": "https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Hoàng gia"
+        ],
+        "theme": "traditional-navy"
+    },
+    {
+        "id": "mock-04",
+        "name": "Minimalist 04",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Tối giản"
+        ],
+        "theme": "traditional-minimal"
+    },
+    {
+        "id": "mock-05",
+        "name": "Pastel Love 05",
+        "image": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Lãng mạn"
+        ],
+        "theme": "traditional-pastel"
+    },
+    {
+        "id": "mock-06",
+        "name": "Rustic 06",
+        "image": "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Nhẹ nhàng"
+        ],
+        "theme": "rustic"
+    },
+    {
+        "id": "mock-07",
+        "name": "Luxury 07",
+        "image": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Sang trọng"
+        ],
+        "theme": "luxury"
+    },
+    {
+        "id": "mock-08",
+        "name": "Song Hỷ Đỏ 08",
+        "image": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Truyền thống"
+        ],
+        "theme": "traditional-red"
+    },
+    {
+        "id": "mock-09",
+        "name": "Navy Blue 09",
+        "image": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Hoàng gia"
+        ],
+        "theme": "traditional-navy"
+    },
+    {
+        "id": "mock-10",
+        "name": "Minimalist 10",
+        "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Tối giản"
+        ],
+        "theme": "traditional-minimal"
+    },
+    {
+        "id": "mock-11",
+        "name": "Pastel Love 11",
+        "image": "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Lãng mạn"
+        ],
+        "theme": "traditional-pastel"
+    },
+    {
+        "id": "mock-12",
+        "name": "Rustic 12",
+        "image": "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Nhẹ nhàng"
+        ],
+        "theme": "rustic"
+    },
+    {
+        "id": "mock-13",
+        "name": "Luxury 13",
+        "image": "https://images.unsplash.com/photo-1544078755-9a8449c2eb06?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Sang trọng"
+        ],
+        "theme": "luxury"
+    },
+    {
+        "id": "mock-14",
+        "name": "Song Hỷ Đỏ 14",
+        "image": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Truyền thống"
+        ],
+        "theme": "traditional-red"
+    },
+    {
+        "id": "mock-15",
+        "name": "Navy Blue 15",
+        "image": "https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Hoàng gia"
+        ],
+        "theme": "traditional-navy"
+    },
+    {
+        "id": "mock-16",
+        "name": "Minimalist 16",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Tối giản"
+        ],
+        "theme": "traditional-minimal"
+    },
+    {
+        "id": "mock-17",
+        "name": "Pastel Love 17",
+        "image": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Lãng mạn"
+        ],
+        "theme": "traditional-pastel"
+    },
+    {
+        "id": "mock-18",
+        "name": "Rustic 18",
+        "image": "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Nhẹ nhàng"
+        ],
+        "theme": "rustic"
+    },
+    {
+        "id": "mock-19",
+        "name": "Luxury 19",
+        "image": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Sang trọng"
+        ],
+        "theme": "luxury"
+    },
+    {
+        "id": "mock-20",
+        "name": "Song Hỷ Đỏ 20",
+        "image": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Truyền thống"
+        ],
+        "theme": "traditional-red"
+    },
+    {
+        "id": "mock-21",
+        "name": "Navy Blue 21",
+        "image": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Hoàng gia"
+        ],
+        "theme": "traditional-navy"
+    },
+    {
+        "id": "mock-22",
+        "name": "Minimalist 22",
+        "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Tối giản"
+        ],
+        "theme": "traditional-minimal"
+    },
+    {
+        "id": "mock-23",
+        "name": "Pastel Love 23",
+        "image": "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Lãng mạn"
+        ],
+        "theme": "traditional-pastel"
+    },
+    {
+        "id": "mock-24",
+        "name": "Rustic 24",
+        "image": "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Nhẹ nhàng"
+        ],
+        "theme": "rustic"
+    },
+    {
+        "id": "mock-25",
+        "name": "Luxury 25",
+        "image": "https://images.unsplash.com/photo-1544078755-9a8449c2eb06?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Sang trọng"
+        ],
+        "theme": "luxury"
+    },
+    {
+        "id": "mock-26",
+        "name": "Song Hỷ Đỏ 26",
+        "image": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Truyền thống"
+        ],
+        "theme": "traditional-red"
+    },
+    {
+        "id": "mock-27",
+        "name": "Navy Blue 27",
+        "image": "https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Hoàng gia"
+        ],
+        "theme": "traditional-navy"
+    },
+    {
+        "id": "mock-28",
+        "name": "Minimalist 28",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Tối giản"
+        ],
+        "theme": "traditional-minimal"
+    },
+    {
+        "id": "mock-29",
+        "name": "Pastel Love 29",
+        "image": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Lãng mạn"
+        ],
+        "theme": "traditional-pastel"
+    },
+    {
+        "id": "mock-30",
+        "name": "Rustic 30",
+        "image": "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&q=80&w=600",
+        "tags": [
+            "Nhẹ nhàng"
+        ],
+        "theme": "rustic"
+    }
+]

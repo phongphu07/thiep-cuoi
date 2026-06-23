@@ -1,6 +1,6 @@
 "use client";
 
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import Hero from '@/components/Hero';
 import Countdown from '@/components/Countdown';
 import Gallery from '@/components/Gallery';
@@ -11,7 +11,37 @@ import BankDetails from '@/components/BankDetails';
 import Greeting from '@/components/Greeting';
 import Footer from '@/components/Footer';
 
-export default function LuxuryTemplate({ cardData, slug }: { cardData: any, slug: string }) {
+export default function LuxuryTemplate({ cardData, slug, isPreview = false }: { cardData: any, slug: string, isPreview?: boolean }) {
+    const autoScrollTimer = useRef<NodeJS.Timeout | null>(null);
+
+    const startAutoScroll = () => {
+        if (autoScrollTimer.current) clearInterval(autoScrollTimer.current);
+        autoScrollTimer.current = setInterval(() => {
+            window.scrollBy({ top: 1, left: 0 });
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 10) {
+                if (isPreview) {
+                    window.scrollTo({ top: 0, left: 0 }); // Loop back
+                } else {
+                    if (autoScrollTimer.current) {
+                        clearInterval(autoScrollTimer.current);
+                        autoScrollTimer.current = null;
+                    }
+                }
+            }
+        }, 30);
+    };
+
+    useEffect(() => {
+        if (isPreview) {
+            setTimeout(() => {
+                startAutoScroll();
+            }, 500);
+        }
+        return () => {
+            if (autoScrollTimer.current) clearInterval(autoScrollTimer.current);
+        };
+    }, [isPreview]);
+
     return (
         <main className="bg-[#f9f4f0] min-h-screen font-sans relative overflow-hidden">
             {/* Hiệu ứng cánh hoa rơi */}

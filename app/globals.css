@@ -1,3 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-montserrat);
+  --font-serif: var(--font-cormorant);
+  --font-script: var(--font-great-vibes);
+}

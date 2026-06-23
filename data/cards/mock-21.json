@@ -1,0 +1,24 @@
+{
+    "id": "mock-21",
+    "theme": "traditional-navy",
+    "groom": "Phan Gia Khánh",
+    "bride": "Phạm Quỳnh Anh",
+    "date": "01 . 06 . 2026",
+    "fullDate": "2026-06-01T09:00:00+07:00",
+    "location": "Nhà hàng White Palace",
+    "address": "108 Phạm Văn Đồng, Hiệp Bình Chánh, Thủ Đức, TP.HCM",
+    "music": "/music/audio1.mp3",
+    "banks": [
+        {
+            "owner": "PHAN GIA KHÁNH",
+            "bank": "BIDV",
+            "number": "568567989877",
+            "qr": "https://img.vietqr.io/image/bidv-568567989877-print.png?accountName=PHAN%20GIA%20KHANH"
+        }
+    ],
+    "images": [
+        "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&q=80"
+    ]
+}
